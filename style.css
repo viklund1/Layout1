@@ -1,0 +1,524 @@
+/* GENERAL */
+@font-face {
+    font-family: Poppins;
+    src: url("fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: PoppinsBold;
+    src: url("fonts/Poppins-Bold.ttf");
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Poppins;
+    width: 1920px;
+}
+/* GENERAL */
+
+
+/* BUTTONS */
+.basicbutton {
+    width: 313px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #707070;
+    background-color: #000000;
+    border-radius: 15px;
+    border: 1px solid #707070;
+}
+.basicbutton:hover {
+    color: #FFFFFF;
+    background-color: #326CF9;
+    border: 0px;
+}
+/* BUTTONS */
+
+
+/* HEADER */
+header {
+    margin: 46px 140px 0px 140px;
+}
+.navigation {
+    display: flex;
+}
+.logo1 {
+    display: flex;
+}
+.photo {
+    background-image: url(images/logo1.png);
+    background-size: cover;
+    width: 45.12px;
+    height: 42.1px;
+    margin: 3.75px 16.89px 0px 0px;
+}
+.name {
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 56px;
+}
+.navmenu {
+    list-style-type: none;
+    display: flex;
+    gap: 38px;
+    margin-left: 426px;
+    margin-top: 12px;
+}
+.navmenu li a {
+    color: #707070;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.navmenu li a:hover {
+    color: #3C82F4;
+}
+header .navmenu li:first-child::after {
+    content: url("images/navarrow.png");
+    width: 11px;
+    height: 6px;
+    margin-left: 2px;
+}
+.reg {
+    margin-left: 423px;
+    display: flex;
+}
+.login {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #707070;
+    margin-top: 13px;
+}
+.singup {
+    background-color: #306EF7;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 119px;
+    border-radius: 15px;
+    margin-left: 24px;
+    border: 0px;
+}
+/* HEADER */
+
+
+/* MAIN */
+main h1 {
+    font-family: PoppinsBold;
+    font-weight: bold;
+    font-size: 112px;
+    line-height: 140px;
+    text-align: center;
+    margin-top: 128px;
+}
+main h1 span {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #FE6783, #FFBF84);
+    
+}
+.button {
+    margin: 136.32px 613px 0px 613px;
+}
+.button p {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+.button2 {
+    display: flex;
+    gap: 26px;
+    margin-top: 50px;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+.dot {
+    background-image: url("images/greendot.png");
+    background-size: cover;
+    width: 28.6px;
+    height: 28.6px;
+}
+.counter p {
+    color: #707070;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+}
+.counter p span {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: PoppinsBold;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0px 9px 0px 9px;
+}
+.wclm {
+    width: 1483px;
+    margin: 188px 218px 0px 218px;
+    text-align: center;
+}
+.wclm h2 {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+}
+.step1 .step span {
+    display: block;
+    width: 929px;
+    margin: 0 auto;
+}
+.benefits {
+    display: flex;
+    gap: 107px;
+    margin-top: 64px;
+}
+.uppertext h4 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+}
+section p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #707070;
+    margin-top: 10px;
+}
+.uppertext {
+    display: flex;
+    justify-content: center;
+}
+.smile1 {
+    background-image: url("images/smile1.png");
+    background-size: cover;
+    width: 37px;
+    height: 37px;
+}
+.smile2 {
+    background-image: url("images/smile2.png");
+    background-size: cover;
+    width: 37px;
+    height: 37px;
+}
+.smile3 {
+    background-image: url("images/smile3.png");
+    background-size: cover;
+    width: 37px;
+    height: 37px;
+}
+.step {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 162px;
+}
+.step p {
+    color: #326CF9;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+.step h2 {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+}
+.step span {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #707070;
+}
+.step button {
+    margin-top: 34.5px;
+    font-weight: 700;
+}
+.yourhp {
+    display: flex;
+    justify-content: start;
+    margin-top: 182px;
+}
+.description {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 8px;
+    margin-left: 9.5%;
+}
+.description h2 {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    margin-top: 80px;
+}
+.description h2 span {
+    color: #3C82F4;
+}
+.yourcontent {
+    margin-top: 29px;
+}
+.screen {
+    background-image: url("images/spotifyimg1.png");
+    background-size: cover;
+    height: 735px;
+    width: 873px;
+    position: absolute;
+    left: 1047px;
+    top: 2078px;
+}
+.option {
+    display: flex;
+    margin: 12px 12px 0px 0px;
+    gap: 12px;
+}
+.option p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+}
+.bullet1 {
+    background-image: url("images/bullet1.png");
+    background-size: cover;
+    height: 33px;
+    width: 33px;
+}
+.bullet2 {
+    background-image: url("images/bullet2.png");
+    background-size: cover;
+    height: 33px;
+    width: 33px;
+}
+.buttons {
+    margin-top: 68px;
+}
+.buttons button {
+    width: 207px;
+    margin-right: 12px;
+}
+.buttons button:hover {
+    width: 207px;
+}
+.step2 {
+    margin-top: 180px;
+}
+.step2 span{
+    width: 886px;
+    display: block;
+    margin: 0 auto;
+}
+.onelinks {
+    display: flex;
+    gap: 23px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 185px;
+}
+.block {
+    background: #0D0D0D;
+    width: 854px;
+}
+.block p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #0FC65C;
+    margin: 33px 0px 0px 45px;
+}
+.block h2 {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+    color: #919191;
+    margin: 24px 0px 0px 45px;
+}
+.block span {
+    color: #FFFFFF;
+}
+.phonephoto {
+    background-image: url("images/phone.png");
+    background-size: cover;
+    width: 926px;
+    height: 338px;
+    margin-left: 66px;
+}
+.cl {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.cl .basicbutton {
+    width: 283px;
+}
+.step3 {
+    margin-top: 185px;
+}
+.step3 span {
+    display: block;
+    margin: 0 auto;
+    width: 920px;
+}
+.create {
+    margin-top: 189px;
+}
+.screen2 {
+    background-image: url("images/spotifyimg2.png");
+    background-size: cover;
+    height: 735px;
+    width: 820px;
+    position: absolute;
+    left: 1047px;
+    top: 4657px;
+}
+.expertsagree {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    margin-top: 180px;
+}
+.tweetimg {
+    background-image: url("images/twitter.png");
+    background-size: cover;
+    height: 441.5px;
+    width: 1826.5px;
+    margin: 0 auto;
+    margin-top: 52px;
+}
+.expertsagree h2 {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    text-align: center;
+}
+.audience {
+    background-image: url("images/avatars.png");
+    background-size: cover;
+    height: 799px;
+    width: 1920px;
+    margin-top: 188px;
+}
+.audience h3 {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+    width: 1336px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 301px;
+}
+.getstart {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 188px;
+}
+.logo2 {
+    background-image: url("images/logo2.png");
+    background-size: cover;
+    height: 151.98px;
+    width: 164.44px;
+    margin: 0 auto;
+}
+.getstart h2 {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 150px;
+    margin-top: 20.47px;
+}
+.getstart .setup {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 64px;
+}
+.getstart .basicbutton {
+    margin-top: 14.75px;
+    width: 472px;
+    height: 102px;  
+}
+.getstart .counter {
+    margin-top: 36px;
+}
+.getstart .dot {
+    width: 37px;
+    height: 37px;
+}
+.getstart .counter p {
+    font-size: 38px;
+}
+.getstart .counter p span {
+    font-size: 38px;
+}
+.getstart .basicbutton {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+.getstart .basicbutton:hover {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+/* MAIN */
+
+
+/* FOOTER */
+.footermenu {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1641px;
+    margin-top: 190px;
+}
+.line1 {
+    display: flex;
+    gap: 23.82px;
+}
+.line1 h3 {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 63px;
+    font-family: PoppinsBold;
+}
+.line2 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    color: #707070;
+}
+.logo3 {
+    background-image: url("images/logo3.png");
+    background-size: cover;
+    height: 52.38px;
+    width: 47.18px;
+}
+.option2 {
+    margin-top: 27px;
+}
+.option2 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+}
+.option2 ul a {
+    color: #707070;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+}
+.option2 ul a:hover {
+    color: #326DF9;
+}
+
+/* FOOTER */
